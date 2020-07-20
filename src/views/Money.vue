@@ -50,14 +50,17 @@ export default {
   },
   methods: {
     input() {
+      // eslint-disable-line no-console
       console.log(this.value, 'input');
     },
     change() {
+      // eslint-disable-line no-console
       console.log('change');
     },
   },
   directives: { money: VMoney },
   mounted() {
+    // eslint-disable-line no-console
     setTimeout(() => console.log(this.value, 'initied'), 1000);
   },
 };

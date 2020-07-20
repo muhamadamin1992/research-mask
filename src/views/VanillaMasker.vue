@@ -44,13 +44,16 @@ export default {
   },
   methods: {
     input() {
+      // eslint-disable-line no-console
       console.log(this.value);
     },
     change() {
+      // eslint-disable-line no-console
       console.log('change');
     },
   },
   mounted() {
+    // eslint-disable-line no-console
     setTimeout(() => console.log(this.value), 1000);
   },
   directives: {
